@@ -1,0 +1,52 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# --- Virtual environments ---
+venv/
+env/
+.venv/
+.env
+ENV/
+
+# --- Jupyter Notebook ---
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# --- Environment / secrets ---
+.env
+.env.local
+*.pem
+*api_key*
+*.key
+
+# --- Data & model artifacts (large files - keep repos light) ---
+*.csv.bak
+*.h5
+*.pkl
+*.joblib
+*.model
+data/raw/
+data/large/
+*.zip
+*.tar.gz
+
+# --- OS / editor junk ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# --- Streamlit ---
+.streamlit/secrets.toml
+
+# --- Logs ---
+*.log
